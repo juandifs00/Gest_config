@@ -1,8 +1,8 @@
 name: Integracion Continua
-on:[push]
+on: [push]
 jobs:
   build:
-    runs-on _ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v3
